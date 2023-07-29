@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Registration Form</title>
+</head>
+
+<body>
+            <legend><h1>Registration Form</h1></legend>
+
+            <label for="firstName">First Name:</label>
+            <input type="text" id="firstName" name="firstName" required><br><br>
+
+            <label for="lastName">Last Name:</label>
+            <input type="text" id="lastName" name="lastName" required><br><br>
+
+            <label for="mobileNumber">Mobile Number:</label>
+            <input type="tel" id="mobileNumber" name="mobileNumber" required><br><br>
+
+            <label>Gender:</label>
+            <label for="male">Male</label>
+            <input type="radio" id="male" name="gender" value="Male" required>
+            <label for="female">Female</label>
+            <input type="radio" id="female" name="gender" value="Female" required><br><br>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required><br><br>
+
+            <label for="favMusic">Favorite Music:</label>
+            <select id="favMusic" name="favMusic" required>
+                <option value="POP">POP</option>
+                <option value="Rock">Rock</option>
+                <option value="Other">Other</option>
+            </select><br><br>
+
+            <label for="additionalDetails">Additional Details:</label><br>
+            <textarea id="additionalDetails" name="additionalDetails" rows="4" cols="50"></textarea><br><br>
+
+            <input type="checkbox" id="termsConditions" name="termsConditions" required>
+            <label for="termsConditions">I agree to the terms and conditions</label><br><br>
+        </fieldset>
+
+        <input type="submit" value="Submit">
+        <input type="reset" value="Reset">
+</body>
+
+</html>
